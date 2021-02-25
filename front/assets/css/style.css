@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial;
+    background-color: rgb(182, 182, 182);
+}
+
+.navbar {
+    width: 100%;
+    padding: 3px;
+    background-color: white;
+    box-sizing: border-box;
+    border-top: solid black;
+    border-bottom: solid rgb(22, 22, 22) 1px;
+    margin: 2px 0px;
+}
+
+.navbar .cabecera {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.bars ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 4px;
+}
+
+.bars ul li a {
+    text-decoration: none;
+    color: #a2a3b7;
+    transition: 1s;
+    text-transform: uppercase;
+}
+
+.bars ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.bars-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 4px;
+}
+
+.bars-right ul li {
+    padding-left: 10px;
+    color: rgb(90, 90, 90);
+    font-size: 1.3rem;
+}
+
+.bars-right ul li input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.3rem;
+}
+
+div.title {
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+
+div.title a {
+    text-decoration: none;
+    color: gray;
+}
+
+div.title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.categoria {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(182, 182, 182);
+}
+
+.categoria-titulo {
+    text-align: center;
+}
+
+.card {
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    min-height: 280px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.card-final {
+    display: flex;
+}
+
+.card-final .card-price {
+    flex: 1;
+    padding: 7px;
+}
+
+.card-final .card-logo {
+    flex: 0;
+    text-align: right;
+    font-size: 1.3rem;
+    color: white;
+    margin: 11px;
+    background-color: gray;
+    border-radius: 80%;
+    padding: 8px;
+}
